@@ -318,7 +318,7 @@ const FandomDashboard: React.FC = () => {
             {/* 3. Engagement & Conversion */}
             <div className="lg:col-span-7 bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
               <h3 className="text-sm font-bold text-slate-500 uppercase tracking-wide mb-4 flex items-center gap-2">
-                <MousePointerClick size={16} /> 3. Engagement & Conversion Signal
+                <MousePointerClick size={16} /> 3. Engagement & Conversion Signal (참여 및 전환 신호)
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-4">
                 <div className="bg-slate-50 p-3 rounded-lg text-center">
@@ -753,7 +753,7 @@ const FandomDashboard: React.FC = () => {
                   </div>
                   <span className="text-5xl font-logo text-white/5 font-bold absolute right-6 top-6">01</span>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">Market Dominance</h3>
+                <h3 className="text-xl font-bold text-white mb-3">Market Dominance<br/><span className="text-base font-normal text-slate-400">(시장 지배력)</span></h3>
                 <p className="text-slate-300 text-sm leading-relaxed mb-4 flex-1">
                   <strong className="text-brand-300">25-34세 여성(33.7%)</strong>이라는 구매력 높은 핵심 타깃을 
                   <span className="text-white font-bold"> 91% 순도</span>로 확보한 최적의 매체입니다.
@@ -774,7 +774,7 @@ const FandomDashboard: React.FC = () => {
                   </div>
                   <span className="text-5xl font-logo text-white/5 font-bold absolute right-6 top-6">02</span>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">Data Confidence</h3>
+                <h3 className="text-xl font-bold text-white mb-3">Data Confidence<br/><span className="text-base font-normal text-slate-400">(데이터 신뢰도)</span></h3>
                 <p className="text-slate-300 text-sm leading-relaxed mb-4 flex-1">
                   단순 인플루언서가 아닌 <strong className="text-blue-300">'고효율 세일즈 채널'</strong>입니다. 
                   <span className="text-white font-bold"> 댓글 &gt; 좋아요(110%)</span>는 적극적 구매 의사를, 
@@ -795,7 +795,7 @@ const FandomDashboard: React.FC = () => {
                   </div>
                   <span className="text-5xl font-logo text-white/5 font-bold absolute right-6 top-6">03</span>
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">Winning Strategy</h3>
+                <h3 className="text-xl font-bold text-white mb-3">Winning Strategy<br/><span className="text-base font-normal text-slate-400">(필승 전략)</span></h3>
                 <p className="text-slate-300 text-sm leading-relaxed mb-4 flex-1">
                   단순 협찬보다는 <strong className="text-pink-300">튜토리얼 형태</strong>의 협업을 제안합니다.
                   댓글창을 활용한 <span className="text-white font-bold">인터랙티브 커머스</span> 전략 구사 시 
